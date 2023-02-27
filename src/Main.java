@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Main.calc();
     }
-
     public static void calc() throws Exception {
         Scanner scan = new Scanner(System.in);
         String numbers = scan.nextLine();
@@ -15,8 +14,6 @@ public class Main {
         if (splitNumbers.length == 1) {
             throw new Exception("Неверное значение");
         }
-
-
 
         var num1 = splitNumbers[0];
         var num2 = splitNumbers[2];
@@ -39,7 +36,6 @@ public class Main {
             } else {
                 throw new Exception("Неверное значение");
             }
-
         } else {
             throw new Exception("Неверное значение");
         }
